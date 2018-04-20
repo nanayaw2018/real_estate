@@ -1,0 +1,185 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/shop.jpeg);
+	background-size: 100% 1200px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+
+.navbar{
+	width: 86.8%;
+	height: 40px;
+	padding-top: 20px;
+	padding-left: 200px;
+	margin-bottom: 50px;
+}
+
+.navbar-default{
+	background-color: grey;
+
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar ul{
+	float: left;
+}
+
+.navbar ul li{
+	float: left;
+	margin-right: 30px;
+	list-style: none;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li a:hover{
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.form{
+	float: left;
+}
+
+input[type='text']{
+	margin-right: 20px;
+}
+
+input[type='submit']{
+	margin-right: 100px;
+}
+
+
+.container{
+	width: 95%;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.side-bar{
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-top: 20px;
+}
+
+.right-side{
+	width: 80%;
+	height: 100%;
+	float:left;
+}
+
+.breadcrumbs{
+	width: 97.5%;
+	height: 40px;
+	padding-top: 20px;
+	padding-left: 30px;
+	background-color: grey;
+}
+
+.main_content{
+	width: 100%;
+	height: 200px;
+	padding-top: 30px;
+}
+
+
+.image{
+	height: 400px;
+	width: 250px;
+	float: left;
+	margin-right: 30px;
+}
+
+.image img{
+	width: 100%;
+	height: 250px;
+	border-radius: 4px;
+}
+
+
+.side-nav li{
+	color: black;
+	list-style: none;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.side-nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.bread-nav li{
+	color: black;
+	list-style: none;
+	font-size: 16px;
+	margin-right: 20px;
+	float: left;
+}
+
+.bread-nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+.bread-nav li a:hover{
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.form1{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.form1 .button{
+
+          margin: 20px 0 0 124px;
+    
+}
+.form1 .h1{
+          margin-top: 0;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+	position: fixed;
+
+}
+
+.footer p{
+	text-align: center;
+}
+
+
